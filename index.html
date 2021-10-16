@@ -16,7 +16,7 @@
 
     <title>Parcial CaC</title>
   </head>
-  <style></style>
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
@@ -59,103 +59,114 @@
 
     <!-- **************************************************************************** -->
 
-    <div style="display: flex; justify-content: end" class="altoVariable">
-      <img src="./images/ba1.jpg" alt="" style="width: 100vw" class="altoVariable" />
+    <section  class="altoVariable d-flex justify-content-end ">
+      <img src="./images/ba1.jpg" alt=""  class="altoVariable formatoEspecifico04" />
 
       <div
-        class="altoVariable"
-        style="
-          width: 100vw;
-          color: whitesmoke;
-          position: absolute;
-          font-weight: bolder;
-          font-size: large;
-          background-color: rgba(0, 0, 0, 0.3);
-        "
+        class="altoVariable divOscurecedor"
+        
       >
-        <div
-          class="container-fluid margenIzquierdoYSuperiorVariable"
-          style="width: 50vw; color: whitesmoke; position: absolute; font-weight: bolder"
+        <div 
+          class="container-fluid margenIzquierdoYSuperiorVariable 
+           position-absolute formatoEspecifico01"
+          
         >
-          <h2>CONF BS AS</h2>
-          <p>
+          <h2 class=" text-light text-end mx-5">CONF BS AS</h2>
+          <p class="text-light">
             BS AS llega por primera vez a Argentina un evento para compartir con nuestra comunidad el conocimiento y
             experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a
             otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos.
           </p>
 
-          <div class="justify-content-end gap-3" style="display: flex">
-            <button class="btn btn-primary mx-2">Quiero ser orador</button>
-            <button class="btn btn-primary mx-2">Comprar tickets</button>
+          <div class="justify-content-end gap-3 d-flex" >
+            <button class="btn btn-outline-light mx-2">Quiero ser orador</button>
+            <button class="btn btn-success mx-2">Comprar tickets</button>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ************************************************************************************* -->
-    <div style="text-align: center">
+    <section class="text-center" >
       <p>Conoce a los</p>
-      <p>ORADORES</p>
+      <h3>ORADORES</h3>
     </div>
 
     <div class="container card-group">
-      <div class="card mx-4" style="width: 18rem">
-        <img src="./images/steve.jpg" class="card-img-top" alt="..." />
+      
+      <div class="card mx-4 cardConfiguracionEspecifica">
+        <img src="./images/bill.jpg" class="card-img-top" alt="Foto de Bill Gates" />
+        
+         <div class="justify-content-start d-flex mt-3">
+          <span class="badge badge-primary bg-warning  ">Javascript</span>
+          <span class="badge badge-primary bg-primary mx-3">React</span>
+         </div>
+     
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Bill Gates</h5>
           <p class="card-text">
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
 
-      <div class="card mx-4" style="width: 18rem">
-        <img src="./images/bill.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+      <div class="card mx-4 cardConfiguracionEspecifica" >
+        <img src="./images/steve.jpg" class="card-img-top" alt="Foto de Steve Jobs" />
+        
+        <div class="justify-content-start d-flex mt-3">
+          <span class="badge badge-primary bg-warning  ">Javascript</span>
+          <span class="badge badge-primary bg-primary mx-3">React</span>
+         </div>
+        
+         <div class="card-body">
+          <h5 class="card-title">Steve Jobs</h5>
           <p class="card-text">
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
 
-      <div class="card mx-4" style="width: 18rem">
-        <img src="./images/ada.jpeg" class="card-img-top" alt="..." />
+      <div class="card mx-4 cardConfiguracionEspecifica" >
+        <img src="./images/ada.jpeg" class="card-img-top" alt="Foto de Ada Lovelace" />
+        
+        <div class="justify-content-start d-flex mt-3">
+          <span class="badge badge-primary bg-secondary  ">Negocios</span>
+          <span class="badge badge-primary bg-danger mx-3">Start ups</span>
+         </div>
+
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+        
+          <h5 class="card-title">Ada Lovelace</h5>
           <p class="card-text">
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- ************************************************************************************* -->
 
-    <div class="apilable">
-      <div style="width: 50vw">
-        <img src="./images/honolulu.jpg" alt="" style="width: 50vw; height: 30vw" />
+    <section class="apilable">
+      <div class="apilableAnchoVariable">
+        <img class="apilableAnchoVariable" src="./images/honolulu.jpg" alt="Foto de Honolulú"   />
       </div>
-      <div class="bg-secondary" style="width: 50vw">
-        <h2>Bs As - octubre</h2>
-        <p>
+      <div class="bg-secondary apilableAnchoVariable" >
+        <h2 class="text-light mx-3">Bs As - octubre</h2>
+        <p class="text-light mx-3">
           Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos, Honolulú
           es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulú se refiere al
           área urbana en la costa suroeste de la isla de Oahu, la ciudad y el condado de Honolulú han formado una
           ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km 2 de superficie)
         </p>
-        <button>Conocé más</button>
+        <button class="btn btn-outline-light  mx-3">Conocé más</button>
       </div>
-    </div>
+    </section>
 
     <!-- ************************************************************************************* -->
-    <div style="text-align: center">
+    <section class="text-center">
       <p>Conviértete en un</p>
-      <p>ORADOR</p>
+      <h3>ORADOR</h3>
       <p>Anótate como orador para dar una charla ignite ¡Cuéntanos de qué quieres hablar!</p>
-    </div>
+    </section>
     <!-- ************************************************************************************* -->
     <footer class="bg-light text-center text-lg-start">
       <!-- Grid container -->
@@ -167,7 +178,7 @@
             <div class="col-md-6 col-12 mb-4 mb-md-0">
               <!-- nombre input -->
               <div class="form-outline mb-4">
-                <input type="text" id="form5Example25" class="form-control" placeholder="Nombre" />
+                <input type="text"  class="form-control" placeholder="Nombre" />
               </div>
             </div>
             <!--Grid column-->
@@ -176,7 +187,7 @@
             <div class="col-md-6 col-12 mb-4 mb-md-0">
               <!-- nombre input -->
               <div class="form-outline mb-4">
-                <input type="text" id="form5Example26" class="form-control" placeholder="Apellido" />
+                <input type="text" class="form-control" placeholder="Apellido" />
               </div>
             </div>
             <!--Grid column-->
@@ -187,9 +198,8 @@
               <div class="mb-4">
                 <!-- nombre input -->
                 <div class="form-outline mb-4 mb-md-0">
-                  <textarea class="form-control" style="width: 102%" id="exampleFormControlTextarea1" rows="3">
-¿Sobre qué quieres hablar?</textarea
-                  >
+                  <textarea class="form-control" style="width: 102%"  rows="3">
+                    ¿Sobre qué quieres hablar?</textarea>
                 </div>
               </div>
               <!--Grid column-->
@@ -202,8 +212,11 @@
           <div class="row">
             <!--Grid column-->
             <div class="col mb-4 mb-md-0">
+
+              <p>Recuerda incluir un título para tu charla</p>
+
               <!-- Submit button -->
-              <button type="submit" class="btn btn-success mb-4" style="width: 90%">Enviar</button>
+              <button type="submit" class="btn btn-success mb-4 formatoEspecifico02" >Enviar</button>
             </div>
             <!--Grid column-->
           </div>
@@ -213,10 +226,10 @@
       <!-- Grid container -->
 
       <!-- Copyright -->
+     
+<!-- ************************************************************************************* -->
       <div
-        style="display: flex; justify-content: space-between"
-        class="text-center p-3 bg-secondary verticalizaAlAchicar"
-        style="background-color: rgba(0, 0, 0, 0.2)"
+        class="text-center p-3 bg-secondary d-flex verticalizaAlAchicar justify-content-between formatoEspecifico03"
       >
         <div class="mb-1">
           <a class="text-dark" href="#"
